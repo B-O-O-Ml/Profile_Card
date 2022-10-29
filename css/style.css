@@ -5,7 +5,7 @@
 }
 body {
     font-family: 'Quicksand', sans-serif;
-    color: #324e63;
+    color: #686868;
   }
 .wrapper{
     width: 100%;
@@ -30,7 +30,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     position: relative;
-    z-index: 4;
+    z-index: 1;
     box-shadow: 0px 5px 50px 0px rgb(108, 68, 252), 0px 0px 0px 7px rgba(107, 74, 255, 0.5);
 }
 .profile-card-img img{
@@ -47,15 +47,23 @@ body {
     font-weight: 700;
 }
 .profile-card-info .name{
-    color:rgb(108, 68, 252);
-    font-size: 20px;
+    color:rgb(167, 253, 242);
+    font-size: 22px;
+}
+.profile-card-info .des{
+    color:rgb(172, 172, 172);
+    font-size: 18px;
+}
+.profile-card-info .list{
+    color:rgb(126, 123, 123);
+    font-size: 15px;
 }
 .profile-card-social{
-    margin-top: 25px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: warp;
 }
 .profile-card-social .item{
     display: inline-flex;
@@ -65,7 +73,7 @@ body {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: rgb(253, 252, 252);
     position: relative;
     font-size: 21px;
     flex-shrink: 0;
