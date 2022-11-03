@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Quicksand', sans-serif;
     color: #686868;
   }
+
 .wrapper{
     width: 100%;
     min-height: 100vh;
